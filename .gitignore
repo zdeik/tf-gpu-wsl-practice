@@ -3,8 +3,9 @@ datasets/
 
 # 모든 ZIP 파일 무시
 *.zip
-# 모든 png 파일 무시
+# 모든 png, jpg 파일 무시\
 *.png
+*.jpg
 
 # Python 관련
 __pycache__/
