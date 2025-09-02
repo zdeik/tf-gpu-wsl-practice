@@ -1,0 +1,25 @@
+# 데이터셋 폴더 무시
+datasets/
+
+# 모든 ZIP 파일 무시
+*.zip
+# 모든 png 파일 무시
+*.png
+
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경
+env/
+venv/
+.tf_cuda_env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# 기타 시스템 파일
+.DS_Store
+Thumbs.db
