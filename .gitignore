@@ -1,26 +1,40 @@
-# 데이터셋 폴더 무시
+# ########## 가상환경 ##########
+.env
+# Python 가상환경 폴더
+venv/
+.tf_cuda_env/
+
+# ########## 데이터셋 및 로그 ##########
+# 대용량 데이터셋 폴더
 datasets/
+mnist/
 
-# 모든 ZIP 파일 무시
-*.zip
-# 모든 png, jpg 파일 무시\
-*.png
-*.jpg
+# 실험 결과 및 로그 폴더
+runs/
 
-# Python 관련
+# ########## Python 관련 ##########
+# Python 캐시 파일 및 폴더
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# 가상환경
-env/
-venv/
-.tf_cuda_env/
-
-# Jupyter notebook checkpoints
+# ########## Jupyter Notebook ##########
+# Jupyter Notebook 체크포인트 폴더
 .ipynb_checkpoints/
 
-# 기타 시스템 파일
+# ########## 특정 파일 확장자 ##########
+# 이미지 및 압축 파일
+*.jpg
+*.png
+*.zip
+
+# 모델 가중치 파일 (e.g., PyTorch)
+*.pt
+
+# ########## 운영체제(OS) 생성 파일 ##########
+# macOS 시스템 파일
 .DS_Store
+
+# Windows 이미지 썸네일 파일
 Thumbs.db
