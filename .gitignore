@@ -28,6 +28,7 @@ __pycache__/
 *.jpg
 *.png
 *.zip
+*.csv
 
 # 모델 가중치 파일 (e.g., PyTorch)
 *.pt
