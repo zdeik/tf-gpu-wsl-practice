@@ -19,6 +19,21 @@ __pycache__/
 *.pyo
 *.pyd
 
+# 학습 결과, 로그, 체크포인트 (이미지에 보이는 results 폴더)
+results/
+logs/
+checkpoints/
+
+# 데이터 파일 (필요에 따라 주석 해제)
+*.json
+*.pt
+*.pth
+*.safetensors
+*.jpg
+*.png
+*.zip
+*.csv
+
 # ########## Jupyter Notebook ##########
 # Jupyter Notebook 체크포인트 폴더
 .ipynb_checkpoints/
@@ -30,8 +45,6 @@ __pycache__/
 *.zip
 *.csv
 
-# 모델 가중치 파일 (e.g., PyTorch)
-*.pt
 
 # ########## 운영체제(OS) 생성 파일 ##########
 # macOS 시스템 파일
